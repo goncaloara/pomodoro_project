@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timer-container">
+            <h1 id="timerTitle">Focus Time</h1>
+            <p id="timeDisplay">25:00</p>
+    
+            <input id="focusTimeInput" type="number" placeholder="Focus time (minutes)">
+            <input id="restTimeInput" type="number" placeholder="Rest time (minutes)">
+    
+            <button id="startButton" onclick="toggleTimer()">Start</button>
+            <button id="resetButton" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+    <!-- Hidden audio player -->
+    <audio id="musicPlayer" src="playlist.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

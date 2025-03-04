@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    background-image: url("imagem.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    color: #333;
+}
+
+.timer-container {
+    background: rgba(240, 240, 240, 0.9); /* light gray */
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px; /* smaller width */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
+}
+
+#timerTitle {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #b23b3b;
+}
+
+#timeDisplay {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #b23b3b;
+}
+
+button {
+    background-color: #e57373; /* light red */
+    color: white;
+    padding: 8px 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #d15252a9;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    font-size: 14px;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #e57373;
+}
