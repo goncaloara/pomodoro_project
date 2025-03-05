@@ -1,4 +1,0 @@
-import matplotlib.plot as matplot
-
-as = input("what is your name?")
-
