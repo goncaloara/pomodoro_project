@@ -22,7 +22,7 @@ body {
     background: rgba(240, 240, 240, 0.9);
     padding: 20px;
     border-radius: 20px;
-    width: 250px; /* smaller width */
+    width: 250px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
 }
 
