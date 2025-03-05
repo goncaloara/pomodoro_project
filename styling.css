@@ -19,7 +19,7 @@ body {
 }
 
 .timer-container {
-    background: rgba(240, 240, 240, 0.9); /* light gray */
+    background: rgba(240, 240, 240, 0.9);
     padding: 20px;
     border-radius: 20px;
     width: 250px; /* smaller width */
@@ -39,7 +39,7 @@ body {
 }
 
 button {
-    background-color: #e57373; /* light red */
+    background-color: #e57373;
     color: white;
     padding: 8px 16px;
     margin: 8px;
