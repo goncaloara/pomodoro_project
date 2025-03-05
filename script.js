@@ -19,7 +19,6 @@ function updateDisplay() {
 }
 
 function toggleTimer() {
-    // Update times from inputs
     const newFocusTime = parseInt(document.getElementById("focusTimeInput").value, 10);
     const newRestTime = parseInt(document.getElementById("restTimeInput").value, 10);
 
@@ -31,7 +30,7 @@ function toggleTimer() {
     }
 
     if (!isRunning) {
-        if (!interval) { // First time starting, set timeLeft
+        if (!interval) { 
             timeLeft = focusTime;
         }
         interval = setInterval(() => {
@@ -40,7 +39,7 @@ function toggleTimer() {
                 isFocus = !isFocus;
                 timeLeft = isFocus ? focusTime : restTime;
                 updateDisplay();
-                toggleTimer(); // Automatically restart the next session
+                toggleTimer();
             } else {
                 timeLeft--;
                 updateDisplay();
