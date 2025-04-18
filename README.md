@@ -1,2 +1,1 @@
-Pomodoro project
-....
+Pomodoro timer with custom playlist and background.
